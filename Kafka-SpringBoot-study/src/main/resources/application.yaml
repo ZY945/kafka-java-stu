@@ -1,7 +1,7 @@
 
 spring:
   kafka:
-    bootstrap-servers: ip:9092
+    bootstrap-servers: ip:9092 # ip:9092
     consumer:
       group-id: springDefaultConsumerGroup
       # Kafka提供的序列化和反序列化类
